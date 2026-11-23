@@ -4,8 +4,10 @@
 key presses, waiting for things to appear on screen, and the logic to handle what a game throws at you. Players share
 their macros as **packs**, which anyone can import with a short code like `AFK-7KQ2-XP9F`.
 
-This repository holds AFKify's installers. **Most people should download AFKify from
-[afkify.com/download](https://afkify.com/download).** It's the same installer, and the site explains what to do next.
+This repository holds AFKify's installers. **To install AFKify, open the newest release under Releases (on the right
+of this page) and download `AFKify-Setup.exe` from its Assets.** [afkify.com/download](https://afkify.com/download)
+explains what your browser and Windows ask when you open it, and [afkify.com/guide](https://afkify.com/guide) walks you
+through your first macro.
 
 - Website: [afkify.com](https://afkify.com)
 - Guide: [afkify.com/guide](https://afkify.com/guide)
@@ -42,8 +44,8 @@ You install AFKify once. After that it keeps itself up to date:
 
 ## Installing by hand
 
-1. Download `AFKify-Setup-<version>.exe` from the release you want (or from
-   [afkify.com/download](https://afkify.com/download)).
+1. Download `AFKify-Setup.exe` from the release you want, under Assets (`AFKify-Setup-<version>.exe` there is the same
+   file, with its version in the name).
 2. If you like, check it in PowerShell: `Get-FileHash .\AFKify-Setup-<version>.exe`, and compare the result with that
    file's line in `SHA256SUMS.txt`.
 3. Run it. AFKify installs for your Windows account and needs no administrator rights.
